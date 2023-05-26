@@ -1,0 +1,83 @@
+.body {
+  background-image: linear-gradient(pink, white);
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  padding: 40px;
+}
+
+.name {
+  padding: 20px;
+  width: 250px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: 2px solid black;
+  background-color: rgb(151, 204, 204);
+}
+
+.department {
+  padding: 20px;
+  width: 250px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  background-color: rgb(151, 204, 204);
+}
+
+.rating {
+  padding: 20px;
+  width: 250px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  background-color: rgb(151, 204, 204);
+}
+
+.submit {
+  padding: 20px;
+  width: 250px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  background-color: rgb(151, 204, 204);
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: cyan;
+}
+
+.container {
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  background-color: rgb(151, 204, 204);
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  gap: 20px;
+}
+
+.submission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 80px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* 
+.submissionBox {
+  display: flex;
+  border: 2px solid red;
+  width: auto;
+  height: auto;
+} */
